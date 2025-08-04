@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Juego - Aprende más</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contenedor-pregunta">
+    <div id="temporizador" class="temporizador">Tiempo: 30</div>
+    <h2 class="pregunta">¿Qué es un número binario?</h2>
+
+    <div class="opciones">
+      <button class="opcion" data-correcta="false">Un número que se utiliza para representar cantidades</button>
+      <button class="opcion" data-correcta="false">Es otro nombre para los números romanos</button>
+      <button class="opcion" data-correcta="true">Es un número representado por 0 y 1</button>
+      <button class="opcion" data-correcta="false">Es un número que se usa de nombrar colores</button>
+    </div>
+
+    <div class="boton-siguiente" style="display: none;">
+      <a href="juego2.html" class="boton-redireccion">Siguiente</a>
+    </div>
+  </div>
+
+  <script src="juego.js"></script>
+</body>
+</html>
